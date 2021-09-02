@@ -1,0 +1,622 @@
+/*****reset****/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+/*****Body*****/
+/* Body */
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Dela Gothic One', cursive;
+  display: flex; }
+
+.colorGuiaDatera {
+  background: white; }
+
+.colorReviewSincero {
+  background: #dbebdb;
+  max-width: 100%; }
+
+.backgroundRosado {
+  background: #f5cdd4 !important;
+  font-family: 'Dela Gothic One', cursive;
+  max-width: 100%; }
+
+.backgroundRosadoMenu {
+  background: #f5cdd4 !important;
+  font-family: 'Dela Gothic One', cursive;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.backgroundBlancoMenu {
+  background: white !important;
+  font-family: 'Dela Gothic One', cursive;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.indexSection1Verde {
+  max-width: 100%; }
+
+.indexSection2Blanco {
+  background: white;
+  max-width: 100%; }
+
+.indexSection3 {
+  background: #c5dbfd;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.container-fluid {
+  background-color: #f5cdd4; }
+
+/* Header */
+header {
+  height: 125px; }
+
+.menuIndex1 {
+  padding-left: 35px; }
+
+nav {
+  height: 125px;
+  display: inline-block;
+  justify-content: flex-end;
+  text-align: center; }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 45px 30px; }
+
+nav ul li a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none; }
+
+nav ul li a:hover {
+  color: #c7529c; }
+
+/* Logo */
+.logoImagen {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 10px; }
+
+/* Main */
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: mediumpurple; */ }
+
+/* Section 0 */
+.elDatazo {
+  max-width: 100% !important;
+  width: 100% !important;
+  justify-content: flex-end;
+  padding-top: 9%;
+  padding-right: 5%;
+  text-align: right;
+  padding-bottom: 9%;
+  color: #0322F2;
+  flex-basis: 100%;
+  background: #f5cdd4;
+  font-family: 'Dela Gothic One', cursive; }
+  .elDatazo p {
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: bold; }
+  .elDatazo button {
+    margin-top: -1%;
+    border: 1px solid #0322F2;
+    color: #0322F2; }
+  .elDatazo button:hover {
+    background: #0322F2; }
+
+/* Section 1 */
+.tituloBoldAzul {
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 5px;
+  color: #0322F2;
+  padding-left: 10rem;
+  padding-top: 3rem; }
+
+.primerParrafo {
+  color: black;
+  text-align: justify;
+  padding-left: 10rem;
+  padding-top: 1rem;
+  padding-right: 5rem;
+  font-family: "Raleway", sans-serif; }
+
+.ilustracionDescripcion {
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 100%;
+  background: #dbebdb; }
+  .ilustracionDescripcion .iluNube {
+    display: flex;
+    padding-top: 20rem;
+    max-width: 100%;
+    justify-content: right; }
+    .ilustracionDescripcion .iluNube img {
+      width: 450px;
+      height: auto;
+      margin-left: -26%; }
+
+.titulo {
+  color: #eea8b3;
+  padding-bottom: 3%; }
+
+/* Section 2 */
+.tituloH3 {
+  display: flex;
+  flex-direction: column;
+  /* border: solid; */
+  margin-left: 4rem;
+  padding-top: 3rem;
+  color: #fcb5c1;
+  font-weight: bold; }
+  .tituloH3 p {
+    color: #0322F2; }
+
+.linkExternos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.linkExternos1 div {
+  width: 9rem;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: 40px 152px;
+  text-align: center; }
+  .linkExternos1 div img {
+    width: 15rem;
+    height: auto; }
+
+/* Section 3 */
+.indexSection3 p {
+  padding-left: 64px; }
+
+.indexSection3 p {
+  color: #0322F2; }
+
+.indexSection3 h3 {
+  color: #0322F2; }
+
+#linkExternos2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 0.5rem;
+  /* border: 1px solid black; */
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 40vh; }
+
+.containerLinks2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+  justify-content: center;
+  align-items: center; }
+
+#linkExternos2 div {
+  /* background-color: rgb(116, 116, 121); */
+  padding: auto 0.5rem; }
+
+.fotospost {
+  width: 12rem;
+  height: auto; }
+
+main h1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2.5rem;
+  color: #fa99ab; }
+
+#contenidoMenuId {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 1rem;
+  padding: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem; }
+  #contenidoMenuId .contenidoMenuFoto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 2rem;
+    padding-left: 9rem; }
+    #contenidoMenuId .contenidoMenuFoto .fotosContenido {
+      width: 27rem;
+      height: auto; }
+
+.contenidoMenu1 {
+  padding-top: 8rem; }
+  .contenidoMenu1 .tituloPink {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #fa99ab; }
+  .contenidoMenu1 button {
+    margin-top: 1rem;
+    margin-left: 15rem;
+    border: 1px solid #0322F2;
+    color: #0322F2; }
+  .contenidoMenu1 button:hover {
+    background: #0322F2; }
+
+.tituloBlue {
+  color: #0322F2;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2.5rem; }
+
+.tituloH4Blue {
+  color: #0322F2;
+  padding-bottom: 2rem;
+  font-size: 1.5rem; }
+
+.contenidoMenu1 p {
+  font-family: "Raleway", sans-serif; }
+
+.colorGuiaDatera main div {
+  font-family: "Raleway", sans-serif; }
+
+.mainContacto {
+  background: white;
+  padding-top: 3%; }
+
+/* Footer */
+footer {
+  background-color: white;
+  /* border-style: solid; */
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Raleway", sans-serif;
+  width: 111.5%;
+  margin-top: 35px; }
+
+.footerRosa {
+  background-color: #f5cdd4; }
+
+.footerVerde {
+  background-color: #dbebdb; }
+
+.frase {
+  width: 15rem;
+  display: flex;
+  padding: 0rem;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 13.5px; }
+
+.logos {
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%; }
+
+.logoRedes img {
+  width: auto;
+  height: auto;
+  max-width: 80px;
+  max-height: 80px;
+  padding-left: 30px; }
+
+.copyRight {
+  padding-left: 5px;
+  display: flex;
+  font-size: 12px; }
+
+.contacto {
+  /* border-style: solid; */
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  font-size: 15px; }
+
+.carousel-inner div img {
+  height: 40rem; }
+
+.carousel-item img {
+  height: 40rem; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; }
+
+@media screen and (max-width: 400px) {
+  .content {
+    display: flex; }
+  img.logoImagen {
+    margin-left: 5px;
+    margin-top: -10px;
+    padding-top: 0px; }
+  .logoImagen {
+    width: 110px;
+    height: auto;
+    display: inline-block; }
+  .elDatazo p {
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: bold; }
+  .elDatazo button {
+    margin-top: -1%;
+    border: 1px solid #0322F2;
+    color: #0322F2;
+    font-size: 8px; }
+  .tituloBoldAzul {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #0322F2;
+    padding-left: 5rem;
+    padding-top: 3rem; }
+  .ilustracionDescripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .ilustracionDescripcion .primerParrafo {
+      font-size: 15px;
+      text-align: justify;
+      padding-left: 5rem;
+      padding-top: 1rem;
+      padding-right: 5rem;
+      font-family: "Raleway", sans-serif; }
+    .ilustracionDescripcion .iluNube {
+      padding-top: 02rem; }
+      .ilustracionDescripcion .iluNube img {
+        width: 200px;
+        height: auto; }
+  .indexSection2Blanco {
+    padding-right: 1rem;
+    padding-bottom: 2rem; }
+  .linkExternos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .linkExternos1 div {
+    width: 9rem;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    margin: 10px 93px;
+    text-align: center; }
+    .linkExternos1 div img {
+      width: 12rem;
+      height: auto; }
+  .indexSection3 {
+    padding-right: 1rem;
+    text-align: center; }
+    .indexSection3 .tituloH3 {
+      padding-right: 50px; }
+    .indexSection3 p {
+      padding-right: 50px; }
+  .containerLinks2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px; }
+  .fotospost {
+    margin-top: 02rem; }
+  .indexSection3 {
+    height: 1300px; }
+  footer {
+    padding-top: 8%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    margin-top: -25px; }
+  .frase {
+    width: 15rem;
+    padding-bottom: 2rem;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 13px; }
+  .logos {
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    padding-bottom: 2rem; }
+  .logoRedes img {
+    width: auto;
+    height: auto;
+    max-width: 80px;
+    max-height: 80px;
+    padding-left: 30px; }
+  .copyRight {
+    padding-left: 5px;
+    display: flex;
+    font-size: 12px; }
+  .contacto {
+    /* border-style: solid; */
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px; } }
+
+@media screen and (max-width: 800px) and (min-width: 401px) {
+  .content {
+    display: flex; }
+  img.logoImagen {
+    margin-left: 5px;
+    margin-top: -10px;
+    padding-top: 0px; }
+  .logoImagen {
+    width: 140px;
+    height: auto;
+    display: inline-block; }
+  .elDatazo p {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: bold; }
+  .elDatazo button {
+    margin-top: -1%;
+    border: 1px solid #0322F2;
+    color: #0322F2;
+    font-size: 10px; }
+  .tituloBoldAzul {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #0322F2;
+    padding-left: 10rem;
+    padding-top: 3rem; }
+  .linkExternos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .linkExternos1 div {
+    width: 9rem;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    text-align: center; }
+    .linkExternos1 div img {
+      width: 20rem;
+      height: auto; }
+  .ilustracionDescripcion {
+    display: flex;
+    flex-direction: column; }
+    .ilustracionDescripcion .iluNube {
+      padding-top: 02rem; }
+  .containerLinks2 {
+    display: flex;
+    flex-direction: column; }
+  .fotospost {
+    margin-top: 03rem;
+    width: 20rem; }
+  .indexSection3 {
+    height: 2030px; }
+  footer {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    margin-top: -25px; }
+  .frase {
+    width: 15rem;
+    padding-bottom: 2rem;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 13px; }
+  .logos {
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    padding-bottom: 2rem; }
+  .contacto {
+    /* border-style: solid; */
+    margin-left: 18%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px; } }
+
+@media screen and (min-width: 801px) and (max-width: 1300px) {
+  .content {
+    display: flex; }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 45px 20px; }
+  nav ul li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none; }
+  img.logoImagen {
+    margin-left: 25px;
+    margin-top: -10px;
+    padding-top: 0px; }
+  .logoImagen {
+    width: 180px;
+    height: auto;
+    display: inline-block; }
+  .elDatazo p {
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold; }
+  .elDatazo button {
+    margin-top: -1%;
+    border: 1px solid #0322F2;
+    color: #0322F2;
+    font-size: 15px; }
+  .tituloBoldAzul {
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #0322F2;
+    padding-left: 10rem;
+    padding-top: 3rem; }
+  .linkExternos1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5px;
+    padding-left: 130px; }
+  .linkExternos1 div img {
+    width: 20rem;
+    height: auto; }
+  .ilustracionDescripcion {
+    display: flex;
+    flex-direction: column; }
+    .ilustracionDescripcion .iluNube {
+      padding-top: 02rem; }
+  .containerLinks2 {
+    display: flex;
+    flex-direction: column; }
+  .fotospost {
+    margin-top: 03rem;
+    width: 20rem; }
+  .indexSection3 {
+    height: 2030px; }
+  footer {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    margin-top: -25px; }
+  .frase {
+    width: 15rem;
+    padding-bottom: 2rem;
+    margin-left: 4%;
+    text-align: center;
+    font-size: 13px; }
+  .logos {
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    padding-bottom: 2rem; }
+  .contacto {
+    /* border-style: solid; */
+    margin-left: 18%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px; } }

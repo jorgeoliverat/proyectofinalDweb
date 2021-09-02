@@ -1,0 +1,65 @@
+/* Body */
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Dela Gothic One', cursive;
+    display: flex;
+    // width: 100%;
+    }
+
+    $letraContenido: 'Raleway', sans-serif;
+
+.colorGuiaDatera {
+    background: white;
+}
+
+.colorReviewSincero {
+    background: rgb(219, 235, 219);
+    max-width: 100%;
+}
+
+.backgroundRosado {
+    background: rgb(245, 205, 212) !important;
+    font-family: 'Dela Gothic One', cursive;
+    max-width: 100%;
+
+}
+
+.backgroundRosadoMenu{
+    background: rgb(245, 205, 212) !important;
+    font-family: 'Dela Gothic One', cursive;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.backgroundBlancoMenu{
+    background: white !important;
+    font-family: 'Dela Gothic One', cursive;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.indexSection1Verde {
+    max-width: 100%;
+}
+
+.indexSection2Blanco {
+    background: white;
+    max-width: 100%;
+
+}
+
+.indexSection3 {
+    background: rgb(197, 219, 253);
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    background-color: rgb(245, 205, 212);
+}

@@ -1,0 +1,419 @@
+/*****reset****/
+@import "base/reset";
+
+/*****Body*****/
+@import "layout/body";
+  
+  /* Header */
+@import "layout/header";
+
+  /* Main */
+@import "layout/main";
+  
+  /* Footer */
+@import "layout/footer";
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .content {
+      display: flex;
+    }
+
+    img.logoImagen {
+      margin-left: 5px;
+      margin-top: -10px;
+      padding-top: 0px;
+    }
+
+    .logoImagen {
+      width: 110px;
+      height: auto;
+      display: inline-block;
+      // background-color: royalblue;
+    }
+
+    .elDatazo {
+      p{
+        font-size: 17px;
+        letter-spacing: 5px;
+        font-weight: bold;
+      }
+      button {    
+        margin-top: -1%;
+        border: 1px solid #0322F2;
+        color: #0322F2;
+        font-size: 8px;
+    }
+    }
+
+    .tituloBoldAzul{
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 5px;
+      color: #0322F2;
+      padding-left: 5rem;
+      padding-top: 3rem;
+    }
+
+        
+    .ilustracionDescripcion{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .primerParrafo {
+        font-size: 15px;  
+        text-align: justify;
+        padding-left: 5rem;
+        padding-top: 1rem;
+        padding-right: 5rem;
+        font-family: $letraContenido;
+        
+      }
+      .iluNube {
+        padding-top: 02rem;
+        img{
+          width: 200px;
+          height: auto;
+        }
+        }
+
+    }
+
+    .indexSection2Blanco {
+      padding-right: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    .linkExternos1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    
+    .linkExternos1 div {
+      width: 9rem;
+      padding-top: 4%;
+      padding-bottom: 5%;
+      margin: 10px 93px;
+      
+      text-align: center; 
+      img{
+        width: 12rem;
+        height: auto;
+      }}
+
+    .indexSection3 {
+      padding-right: 1rem;
+      text-align: center;
+      .tituloH3{
+        padding-right: 50px;
+      }
+      p {
+        padding-right: 50px;
+      }
+    }
+
+
+    .containerLinks2 {
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+    }
+    .fotospost{
+    margin-top:  02rem;
+    }
+
+    .indexSection3{
+      height: 1300px;
+    }
+
+    footer {
+      padding-top: 8%;
+      padding-bottom: 10%;
+      display: flex;
+      flex-direction: column;
+      font-family: $letraContenido;
+      width: 100%;
+      margin-top: -25px;
+    }
+
+    .frase {
+      width: 15rem;
+      padding-bottom: 2rem;
+      margin-left: 20%;
+      text-align: center;
+      font-size: 13px; }
+    
+    .logos {
+        /* border-style: solid; */
+        display: flex;
+        flex-direction: column;
+        margin-left: 35%;
+        padding-bottom: 2rem;
+        } 
+    
+    .logoRedes img {
+      width: auto;
+      height: auto;
+      max-width: 80px;
+      max-height: 80px;
+      padding-left: 30px;}
+    
+    .copyRight {
+      padding-left: 5px;
+      display: flex;
+      font-size: 12px; }
+    
+    .contacto {
+        /* border-style: solid; */
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px; }
+  }
+
+  @media screen and (max-width: 800px) and (min-width: 401px) {
+    .content {
+      display: flex;
+    }
+
+    img.logoImagen {
+      margin-left: 5px;
+      margin-top: -10px;
+      padding-top: 0px;
+    }
+
+    .logoImagen {
+      width: 140px;
+      height: auto;
+      display: inline-block;
+      // background-color: royalblue;
+    }
+
+    .elDatazo {
+      p{
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: bold;
+      }
+      button {    
+        margin-top: -1%;
+        border: 1px solid #0322F2;
+        color: #0322F2;
+        font-size:10px;
+    }
+    }
+
+
+    .tituloBoldAzul{
+      font-weight: bold;
+      font-size: 35px;
+      letter-spacing: 5px;
+      color: #0322F2;
+      padding-left: 10rem;
+      padding-top: 3rem;
+    }
+
+    
+    .linkExternos1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .linkExternos1 div {
+      width: 9rem;
+      padding-top: 4%;
+      padding-bottom: 5%;
+      
+      
+      text-align: center; 
+      img{
+        width: 20rem;
+        height: auto;
+      }}
+
+    .ilustracionDescripcion{
+      display: flex;
+      flex-direction: column;
+      .iluNube{
+        padding-top: 02rem;
+        }
+    }
+    .containerLinks2{
+      display: flex;
+      flex-direction: column;
+    }
+    .fotospost{
+    margin-top:  03rem;
+    width: 20rem;
+
+    }
+    .indexSection3{
+      height: 2030px;
+    }
+
+    footer {
+      padding-top: 8%;
+      padding-bottom: 3%;
+      display: flex;
+      flex-direction: row;
+      font-family: $letraContenido;
+      width: 100%;
+      margin-top: -25px;
+    }
+
+    .frase {
+      width: 15rem;
+      padding-bottom: 2rem;
+      margin-left: 3%;
+      text-align: center;
+      font-size: 13px; }
+    
+    .logos {
+        /* border-style: solid; */
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+        padding-bottom: 2rem;
+        } 
+  
+    
+    .contacto {
+        /* border-style: solid; */
+        margin-left: 18%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px; }
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 1300px) {
+    .content {
+      display: flex;
+    }
+
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 45px 20px;
+      // background-color: purple;
+    }
+    
+    nav ul li a {
+      color:black;
+      font-size: 15px;
+      text-decoration: none; }
+
+    img.logoImagen {
+      margin-left: 25px;
+      margin-top: -10px;
+      padding-top: 0px;
+    }
+
+    .logoImagen {
+      width: 180px;
+      height: auto;
+      display: inline-block;
+      // background-color: royalblue;
+    }
+
+    .elDatazo {
+      p{
+        font-size: 50px;
+        letter-spacing: 5px;
+        font-weight: bold;
+      }
+      button {    
+        margin-top: -1%;
+        border: 1px solid #0322F2;
+        color: #0322F2;
+        font-size:15px;
+    }
+    }
+
+
+    .tituloBoldAzul{
+      font-weight: bold;
+      font-size: 50px;
+      letter-spacing: 5px;
+      color: #0322F2;
+      padding-left: 10rem;
+      padding-top: 3rem;
+    }
+
+    .linkExternos1 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      column-gap: 5px;
+      padding-left: 130px;
+    
+    }
+
+    .linkExternos1 div {
+      img{
+        width: 20rem;
+        height: auto;
+      }}
+    
+    .ilustracionDescripcion{
+      display: flex;
+      flex-direction: column;
+      .iluNube{
+        padding-top: 02rem;
+        }
+    }
+    .containerLinks2{
+      display: flex;
+      flex-direction: column;
+    }
+    .fotospost{
+    margin-top:  03rem;
+    width: 20rem;
+
+    }
+    .indexSection3{
+      height: 2030px;
+    }
+
+    footer {
+      padding-top: 8%;
+      padding-bottom: 3%;
+      display: flex;
+      flex-direction: row;
+      font-family: $letraContenido;
+      width: 100%;
+      margin-top: -25px;
+    }
+
+    .frase {
+      width: 15rem;
+      padding-bottom: 2rem;
+      margin-left: 4%;
+      text-align: center;
+      font-size: 13px; }
+    
+    .logos {
+        /* border-style: solid; */
+        display: flex;
+        flex-direction: column;
+        margin-left: 14%;
+        padding-bottom: 2rem;
+        } 
+  
+    
+    .contacto {
+        /* border-style: solid; */
+        margin-left: 18%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px; }
+  }
